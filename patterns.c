@@ -2,8 +2,8 @@
 #include<cs50.h>
 int main(void){
   int i,j,k;
-  int option = get_int(" ");
-  int rows = get_int(" ");
+  int option = get_int("Enter type of pattern (1 or 2) ");
+  int rows = get_int("Number of rows");
   switch(option){
     case 1:
     	for(i=0;i<rows;i++){
